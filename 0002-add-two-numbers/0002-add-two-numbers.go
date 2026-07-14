@@ -1,10 +1,11 @@
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
+package main
+
+// Definition for singly-linked list.
+type ListNode struct {
+    Val  int
+    Next *ListNode
+}
+
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
     // 1. 空のノードを作り、そのメモリアドレスお(&)をポインタとしてdummyに代入
     dummy := &ListNode{}
