@@ -1,3 +1,5 @@
+package main
+
 func lengthOfLongestSubstring(s string) int {
     lastSeen := make(map[byte]int)
     left := 0
