@@ -1,3 +1,5 @@
+package main
+
 // 回文を探す問題。
 func longestPalindrome(s string) string {
     if len(s) == 0 {
