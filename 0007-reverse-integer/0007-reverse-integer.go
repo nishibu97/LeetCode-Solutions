@@ -1,3 +1,5 @@
+package main
+
 func reverse(x int) int {
     const IntMax = 1<<31 - 1
     const IntMin = -1 << 31
